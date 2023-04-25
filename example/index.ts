@@ -3,7 +3,7 @@ import { apiModules } from './modules';
 
 const { PORT = 3000 } = process.env;
 
-const srv = new ModularApi({
+new ModularApi({
   port: Number(PORT),
   host: '0.0.0.0',
 
@@ -12,6 +12,6 @@ const srv = new ModularApi({
   serverDescription: 'The cats api server',
 
   enableInfoModule: true,
-});
-srv.addModules(apiModules);
-srv.start();
+})
+  .addModules(apiModules)
+  .start();
