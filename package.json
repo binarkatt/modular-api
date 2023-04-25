@@ -1,6 +1,6 @@
 {
   "name": "@logkatt/modular-api",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Experimental modular api",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,7 +14,7 @@
   "homepage": "https://github.com/binarkatt/modular-api#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/binarkatt/modular-api.git"
+    "url": "git://github.com/binarkatt/modular-api.git"
   },
   "author": "Denis Grishin <grishincode@gmail.com>",
   "license": "MIT",
