@@ -1,0 +1,33 @@
+{
+  "name": "@logkatt/modular-api",
+  "version": "0.5.0",
+  "description": "Experimental modular api",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "husky install",
+    "build": "rm -rf build && ./node_modules/.bin/tsc",
+    "test": "NODE_ENV=development jest --detectOpenHandles --verbose --forceExit",
+    "lint": "./node_modules/.bin/eslint src/**/*.ts",
+    "update": "rm -rf node_modules && rm -f yarn.lock && yarn"
+  },
+  "homepage": "https://github.com/binarkatt/modular-api#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binarkatt/modular-api.git"
+  },
+  "author": "Denis Grishin <grishincode@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "http-status-codes": "2.2.0",
+    "fastify": "4.15.0"
+  },
+  "devDependencies": {
+    "@logkatt/eslint-config": "0.0.4",
+    "@types/node": "18.15.12",
+    "eslint": "8.38.0",
+    "husky": "8.0.0",
+    "ts-node": "10.9.1",
+    "typescript": "5.0.4"
+  }
+}
