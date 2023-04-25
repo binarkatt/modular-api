@@ -9,7 +9,7 @@ const composeErrorParams = (type, message) => {
     }
     const error = http_status_codes_1.ReasonPhrases[type];
     if (!error) {
-        throw new Error(`Reason phrases for type ${type} was not found.`);
+        throw new Error(`Reason phrase for type ${type} was not found.`);
     }
     return {
         statusCode,

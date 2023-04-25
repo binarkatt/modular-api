@@ -11,7 +11,7 @@ export const composeErrorParams = (type: string, message?: string): IAbstractErr
   const error = ReasonPhrases[type];
 
   if (!error) {
-    throw new Error(`Reason phrases for type ${type} was not found.`);
+    throw new Error(`Reason phrase for type ${type} was not found.`);
   }
 
   return {
