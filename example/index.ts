@@ -1,7 +1,9 @@
 import { ModularApi } from '../src';
 import { apiModules } from './modules';
 
-const { PORT = 3000 } = process.env;
+const {
+  PORT = 3000,
+} = process.env;
 
 new ModularApi({
   port: Number(PORT),
