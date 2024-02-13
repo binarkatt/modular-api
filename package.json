@@ -1,6 +1,6 @@
 {
   "name": "@logkatt/modular-api",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Experimental modular api",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
