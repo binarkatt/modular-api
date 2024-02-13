@@ -1,13 +1,13 @@
 {
   "name": "@logkatt/modular-api",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Experimental modular api",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rm -rf build && ./node_modules/.bin/tsc",
     "test": "NODE_ENV=development jest --detectOpenHandles --verbose --forceExit",
-    "lint": "./node_modules/.bin/eslint . --ext .ts",
+    "lint": "eslint . --ext .ts",
     "update": "rm -rf node_modules yarn.lock && yarn"
   },
   "homepage": "https://github.com/binarkatt/modular-api#readme",
