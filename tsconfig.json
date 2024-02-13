@@ -21,6 +21,6 @@
     "removeComments": false,
     "noImplicitAny": false,
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
+    "esModuleInterop": true
   }
 }

@@ -1,4 +1,1 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
-yarn lint --fix && rm -rf dist/ && yarn build && git add dist src
+yarn lint
